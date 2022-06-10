@@ -21,12 +21,11 @@
   "scripts": {
     "build": "node build.js",
     "build:watch": "node build.js --watch",
-    "dev": "pnpm build:watch & pnpm typegen:watch",
-    "prepare": "MINIFY_CSS=true pnpm build",
-    "prebuild": "pnpm typegen",
-    "typecheck": "pnpm tsc --noEmit",
-    "typegen": "tsc --emitDeclarationOnly || true",
-    "typegen:watch": "tsc --emitDeclarationOnly --watch"
+    "dev": "npm run build:watch & npm run typegen:watch",
+    "prebuild": "npx typegen",
+    "typecheck": "npx tsc --noEmit",
+    "typegen": "npx tsc --emitDeclarationOnly || true",
+    "typegen:watch": "npx tsc --emitDeclarationOnly --watch"
   },
   "keywords": [
     "ens",

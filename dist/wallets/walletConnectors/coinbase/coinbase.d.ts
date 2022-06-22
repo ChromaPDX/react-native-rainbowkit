@@ -4,4 +4,4 @@ export interface CoinbaseOptions {
     appName: string;
     chains: Chain[];
 }
-export declare const coinbase: ({ appName, chains }: CoinbaseOptions) => Wallet;
+export declare const coinbase: ({ appName, chains }: CoinbaseOptions) => Wallet<any>;

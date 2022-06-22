@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { useAccount, useBalance, useEnsAvatar, useEnsName } from 'wagmi';
 export interface AccountModalProps {
     accountData: ReturnType<typeof useAccount>['data'];
@@ -8,4 +9,4 @@ export interface AccountModalProps {
     onClose: () => void;
     onDisconnect: () => void;
 }
-export declare function AccountModal({ accountData, balanceData, ensAvatar, ensName, onClose, onDisconnect, open, }: AccountModalProps): any;
+export declare function AccountModal({ accountData, balanceData, ensAvatar, ensName, onClose, onDisconnect, open, }: AccountModalProps): JSX.Element;

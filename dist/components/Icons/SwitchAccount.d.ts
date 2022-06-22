@@ -1,1 +1,2 @@
-export declare const SwitchAccountIcon: () => any;
+/// <reference types="react" />
+export declare const SwitchAccountIcon: () => JSX.Element;

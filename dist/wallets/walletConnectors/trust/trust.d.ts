@@ -3,4 +3,4 @@ import { Wallet } from '../../Wallet';
 export interface TrustOptions {
     chains: Chain[];
 }
-export declare const trust: ({ chains }: TrustOptions) => Wallet;
+export declare const trust: ({ chains }: TrustOptions) => Wallet<any>;

@@ -7,5 +7,5 @@ interface DialogContentProps {
     marginTop?: BoxProps['marginTop'];
     wide?: boolean;
 }
-export declare function DialogContent({ bottomSheetOnMobile, children, marginTop, padding, wide, }: DialogContentProps): any;
+export declare function DialogContent({ bottomSheetOnMobile, children, marginTop, padding, wide, }: DialogContentProps): JSX.Element;
 export {};

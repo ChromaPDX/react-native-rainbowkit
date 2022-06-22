@@ -29,7 +29,7 @@ export interface ConnectButtonRendererProps {
         connectModalOpen: boolean;
     }) => ReactNode;
 }
-export declare function ConnectButtonRenderer({ children, }: ConnectButtonRendererProps): any;
+export declare function ConnectButtonRenderer({ children, }: ConnectButtonRendererProps): JSX.Element;
 export declare namespace ConnectButtonRenderer {
     var displayName: string;
 }

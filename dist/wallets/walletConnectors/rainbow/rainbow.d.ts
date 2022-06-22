@@ -3,4 +3,4 @@ import { Wallet } from '../../Wallet';
 export interface RainbowOptions {
     chains: Chain[];
 }
-export declare const rainbow: ({ chains }: RainbowOptions) => Wallet;
+export declare const rainbow: ({ chains }: RainbowOptions) => Wallet<any>;

@@ -5,5 +5,5 @@ export declare type AvatarComponentProps = {
     size: number;
 };
 export declare type AvatarComponent = React.FunctionComponent<AvatarComponentProps>;
-export declare const defaultAvatar: React.FunctionComponent<AvatarComponentProps>;
-export declare const AvatarContext: any;
+export declare const defaultAvatar: any;
+export declare const AvatarContext: import("react").Context<any>;

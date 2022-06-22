@@ -1,1 +1,2 @@
-export declare const DisconnectIcon: () => any;
+/// <reference types="react" />
+export declare const DisconnectIcon: () => JSX.Element;

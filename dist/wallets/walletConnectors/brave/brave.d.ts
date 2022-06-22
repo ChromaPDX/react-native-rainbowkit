@@ -4,4 +4,4 @@ export interface BraveOptions {
     chains: Chain[];
     shimDisconnect?: boolean;
 }
-export declare const brave: ({ chains, shimDisconnect }: BraveOptions) => Wallet;
+export declare const brave: ({ chains, shimDisconnect }: BraveOptions) => Wallet<any>;

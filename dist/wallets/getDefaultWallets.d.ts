@@ -1,10 +1,10 @@
-import { Chain } from '../components/RainbowKitProvider/RainbowKitChainContext';
-import { WalletList } from './Wallet';
-import { connectorsForWallets } from './connectorsForWallets';
 export declare const getDefaultWallets: ({ appName, chains, }: {
     appName: string;
-    chains: Chain[];
+    chains: any[];
 }) => {
-    connectors: ReturnType<typeof connectorsForWallets>;
-    wallets: WalletList;
+    connectors: (connectorArgs: import("./Wallet").ConnectorArgs) => any[];
+    wallets: {
+        groupName: string;
+        wallets: import("./Wallet").Wallet<any>[];
+    }[];
 };

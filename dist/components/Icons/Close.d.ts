@@ -1,1 +1,2 @@
-export declare const CloseIcon: () => any;
+/// <reference types="react" />
+export declare const CloseIcon: () => JSX.Element;

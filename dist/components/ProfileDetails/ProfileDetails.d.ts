@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { useAccount, useBalance, useEnsAvatar, useEnsName } from 'wagmi';
 interface ProfileDetailsProps {
     accountData: ReturnType<typeof useAccount>['data'];
@@ -7,5 +8,5 @@ interface ProfileDetailsProps {
     onClose: () => void;
     onDisconnect: () => void;
 }
-export declare function ProfileDetails({ accountData, balanceData, ensAvatar, ensName, onClose, onDisconnect, }: ProfileDetailsProps): any;
+export declare function ProfileDetails({ accountData, balanceData, ensAvatar, ensName, onClose, onDisconnect, }: ProfileDetailsProps): JSX.Element;
 export {};

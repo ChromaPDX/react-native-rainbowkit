@@ -1,1 +1,2 @@
-export declare const CopiedIcon: () => any;
+/// <reference types="react" />
+export declare const CopiedIcon: () => JSX.Element;

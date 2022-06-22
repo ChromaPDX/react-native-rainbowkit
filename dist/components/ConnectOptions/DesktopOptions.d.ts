@@ -1,3 +1,4 @@
+/// <reference types="react" />
 export declare enum WalletStep {
     None = "NONE",
     Get = "GET",
@@ -7,4 +8,4 @@ export declare enum WalletStep {
 }
 export declare function DesktopOptions({ onClose }: {
     onClose: () => void;
-}): any;
+}): JSX.Element;

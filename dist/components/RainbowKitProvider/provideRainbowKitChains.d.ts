@@ -1,2 +1,1 @@
-import type { RainbowKitChain } from './RainbowKitChainContext';
-export declare const provideRainbowKitChains: <Chain extends RainbowKitChain>(chains: Chain[]) => Chain[];
+export declare const provideRainbowKitChains: <Chain extends any>(chains: Chain[]) => Chain[];

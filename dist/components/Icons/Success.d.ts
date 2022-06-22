@@ -1,1 +1,2 @@
-export declare const SuccessIcon: () => any;
+/// <reference types="react" />
+export declare const SuccessIcon: () => JSX.Element;

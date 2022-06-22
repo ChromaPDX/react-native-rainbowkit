@@ -1,1 +1,2 @@
-export declare const ExternalLinkIcon: () => any;
+/// <reference types="react" />
+export declare const ExternalLinkIcon: () => JSX.Element;

@@ -1,3 +1,4 @@
+/// <reference types="react" />
 declare type Size = 'small' | 'medium' | 'large';
 export declare function ActionButton({ href, label, onClick, rel, size, target, type, }: {
     href?: string;
@@ -7,5 +8,5 @@ export declare function ActionButton({ href, label, onClick, rel, size, target, 
     size?: Size;
     target?: string;
     type?: 'primary' | 'secondary';
-}): any;
+}): JSX.Element;
 export {};

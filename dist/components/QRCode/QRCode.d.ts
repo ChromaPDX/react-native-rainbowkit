@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import QRCodeUtil from 'qrcode';
 declare type Props = {
     ecl?: QRCodeUtil.QRCodeErrorCorrectionLevel;
@@ -8,5 +9,5 @@ declare type Props = {
     size?: number;
     uri: string;
 };
-export declare function QRCode({ ecl, logoBackground, logoMargin, logoSize, logoUrl, size: sizeProp, uri, }: Props): any;
+export declare function QRCode({ ecl, logoBackground, logoMargin, logoSize, logoUrl, size: sizeProp, uri, }: Props): JSX.Element;
 export {};

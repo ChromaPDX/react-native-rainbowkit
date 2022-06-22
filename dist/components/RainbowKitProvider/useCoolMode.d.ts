@@ -1,1 +1,2 @@
-export declare const useCoolMode: (imageUrl: string | (() => Promise<string>)) => any;
+/// <reference types="react" />
+export declare const useCoolMode: (imageUrl: string | (() => Promise<string>)) => import("react").MutableRefObject<HTMLElement>;

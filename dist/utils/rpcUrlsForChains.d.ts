@@ -1,4 +1,3 @@
-import { Chain } from '../components/RainbowKitProvider/RainbowKitChainContext';
-export declare const rpcUrlsForChains: (chains: Chain[]) => {
+export declare const rpcUrlsForChains: (chains: any[]) => {
     [chainId: number]: string;
 };

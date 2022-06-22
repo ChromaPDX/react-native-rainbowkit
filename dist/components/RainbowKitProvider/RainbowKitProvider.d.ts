@@ -3,8 +3,9 @@ import { ThemeVars } from '../../css/sprinkles.css';
 import { DisclaimerComponent } from './AppContext';
 import { AvatarComponent } from './AvatarContext';
 import { RainbowKitChain } from './RainbowKitChainContext';
+declare const attr = "data-rk";
 export declare const useThemeRootProps: () => {
-    "data-rk": string;
+    [attr]: string;
 };
 export declare type Theme = ThemeVars | {
     lightMode: ThemeVars;
@@ -24,4 +25,5 @@ export interface RainbowKitProviderProps {
     coolMode?: boolean;
     avatar?: AvatarComponent;
 }
-export declare function RainbowKitProvider({ chains, id, theme, children, appInfo, showRecentTransactions, coolMode, avatar, }: RainbowKitProviderProps): any;
+export declare function RainbowKitProvider({ chains, id, theme, children, appInfo, showRecentTransactions, coolMode, avatar, }: RainbowKitProviderProps): JSX.Element;
+export {};

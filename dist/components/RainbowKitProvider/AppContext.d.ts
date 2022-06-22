@@ -13,4 +13,8 @@ export declare const defaultAppInfo: {
     disclaimer: any;
     learnMoreUrl: string;
 };
-export declare const AppContext: any;
+export declare const AppContext: import("react").Context<{
+    appName?: string;
+    learnMoreUrl?: string;
+    disclaimer?: any;
+}>;

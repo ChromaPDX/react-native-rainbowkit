@@ -3,4 +3,4 @@ import { Wallet } from '../../Wallet';
 export interface LedgerOptions {
     chains: Chain[];
 }
-export declare const ledger: ({ chains }: LedgerOptions) => Wallet;
+export declare const ledger: ({ chains }: LedgerOptions) => Wallet<any>;

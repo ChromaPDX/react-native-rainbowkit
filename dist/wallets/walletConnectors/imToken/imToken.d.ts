@@ -3,4 +3,4 @@ import { Wallet } from '../../Wallet';
 export interface ImTokenOptions {
     chains: Chain[];
 }
-export declare const imToken: ({ chains }: ImTokenOptions) => Wallet;
+export declare const imToken: ({ chains }: ImTokenOptions) => Wallet<any>;

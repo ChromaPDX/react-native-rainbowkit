@@ -1,5 +1,5 @@
-import { ReactNode } from 'react';
+/// <reference types="react" />
 export declare const DisclaimerLink: ({ children, href, }: {
-    children: ReactNode;
+    children: any;
     href: string;
-}) => any;
+}) => JSX.Element;

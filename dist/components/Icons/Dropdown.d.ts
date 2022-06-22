@@ -1,1 +1,2 @@
-export declare const DropdownIcon: () => any;
+/// <reference types="react" />
+export declare const DropdownIcon: () => JSX.Element;

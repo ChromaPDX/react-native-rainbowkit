@@ -4,4 +4,4 @@ export interface InjectedOptions {
     chains: Chain[];
     shimDisconnect?: boolean;
 }
-export declare const injected: ({ chains, shimDisconnect, }: InjectedOptions) => Wallet;
+export declare const injected: ({ chains, shimDisconnect, }: InjectedOptions) => Wallet<any>;
